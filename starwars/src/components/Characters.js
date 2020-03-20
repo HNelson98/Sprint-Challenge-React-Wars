@@ -1,13 +1,32 @@
 import React from 'react'
-import CharactersList from './CharactersList'
+import {
+    Card, CardText, CardBody,
+    CardTitle, Container, Row, Col
+} from 'reactstrap';
 
 
-export default function Characters(props){
+const Characters = props =>{
 
     return(
-        <div className='characterCard'>
-            <h1>Name:{props.name}</h1>
         
-      </div>
+             <Container>
+            <Col sm="12" md={{ size: 6, offset: 3 }}> 
+         
+                <Card className = 'card'>
+                    <CardBody>
+                        <CardTitle>Name:{props.name}</CardTitle>
+                        <CardText>Height:{props.height}cm</CardText>
+                        <CardText>Weight:{props.weight}kg</CardText>
+                        <CardText>Hair Color:{props.hair}</CardText>
+                        <CardText>Skin Color:{props.skin}</CardText>
+                    </CardBody>
+                </Card>
+                
+            </Col>
+
+        </Container>
+      
     )
 }
+
+export default Characters

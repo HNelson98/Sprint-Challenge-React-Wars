@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import Characters from './Characters';
 import axios from 'axios';
 
-export default function CharactersList(){
+function CharactersList(){
     const [data, setData]= useState([])
 
     useEffect(() =>{
@@ -14,18 +14,22 @@ export default function CharactersList(){
         .catch(err => {
             console.log('Axios Error:', err)
         })
-    }, [])
+    }, []);
 
 return(
-    <div className= 'CharacterCard'>
+    <div className= 'Card'>
         {data.map(item =>
-            <Characters name= {item.name}
+            <Characters
             key= {item.name}
+            name= {item.name}
             height= {item.height}
             weight= {item.mass}
-            hairColor= {item.hair_color}
+            hair= {item.hair_color}
             skin= {item.skin_color}
             />)}
+
+           
     </div>
 )
-}
+};
+export default CharactersList;
