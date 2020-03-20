@@ -18,15 +18,13 @@ function CharactersList(){
 
 return(
     <div className= 'Card'>
-        {data.map(item =>
+        
+             {data.map(item =>
             <Characters
             key= {item.name}
-            name= {item.name}
-            height= {item.height}
-            weight= {item.mass}
-            hair= {item.hair_color}
-            skin= {item.skin_color}
+           character= {item}
             />)}
+
 
            
     </div>

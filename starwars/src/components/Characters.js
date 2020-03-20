@@ -6,6 +6,7 @@ import styled from 'styled-components';
 
 
 const Characters = props =>{
+    console.log(props, 'cha props')
 
  const Container = styled.div`
   width: 60%;
@@ -19,7 +20,7 @@ const Characters = props =>{
   font-size: 20px;
   font-decoration: bold;
   `;
-
+const character = props.character
     return(
         
              <Container>
@@ -27,11 +28,11 @@ const Characters = props =>{
          
                 <Card className = 'card'>
                     <CardBody>
-                        <ChaName>{props.name}</ChaName>
-                        <CardText>Height: {props.height}cm</CardText>
-                        <CardText>Weight: {props.weight}kg</CardText>
-                        <CardText>Hair Color: {props.hair}</CardText>
-                        <CardText>Skin Color: {props.skin}</CardText>
+                        <ChaName>{character.name}</ChaName>
+                        <CardText>Height: {character.height}cm</CardText>
+                        <CardText>Weight: {character.weight}kg</CardText>
+                        <CardText>Hair Color: {character.hair}</CardText>
+                        <CardText>Skin Color: {character.skin}</CardText>
                     </CardBody>
                 </Card>
                 
