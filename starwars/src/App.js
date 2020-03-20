@@ -1,5 +1,4 @@
 import React from 'react';
-import Characters from './components/Characters'
 import './App.css';
 import CharactersList from './components/CharactersList';
 
