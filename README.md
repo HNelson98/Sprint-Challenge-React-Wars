@@ -38,16 +38,16 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add TL as collaborator on Github.
-- [ ] Clone your OWN version of Repo. **(Not Lambda's by mistake!)**
-- [ ] Create a new Branch locally: `git checkout -b <firstName-lastName>`.
-- [ ] Change directories into `./starwars` (`cd starwars`) and run `npm install` to retrieve all needed dependencies.
-- [ ] Once you have installed the _node_modules_, run `npm start` to get your server up and running.
-- [ ] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
+- [Y] Create a forked copy of this project.
+- [Y] Add TL as collaborator on Github.
+- [Y] Clone your OWN version of Repo. **(Not Lambda's by mistake!)**
+- [Y] Create a new Branch locally: `git checkout -b <firstName-lastName>`.
+- [Y] Change directories into `./starwars` (`cd starwars`) and run `npm install` to retrieve all needed dependencies.
+- [Y] Once you have installed the _node_modules_, run `npm start` to get your server up and running.
+- [Y] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
 Follow these steps for completing your project.
-- [ ] Implement the project on this Branch, **committing progress & changes often.**
-- [ ] Push commits: `git push origin <firstName-lastName>`.
+- [Y] Implement the project on this Branch, **committing progress & changes often.**
+- [Y] Push commits: `git push origin <firstName-lastName>`.
 
 Follow these steps for completing your project:
 
@@ -60,20 +60,20 @@ Follow these steps for completing your project:
 
 Your finished project must include all of the following requirements:
 
-- [ ] Fetch a list of Star Wars characters from the [Star Wars API (or SWAPI)](https://swapi.co/) and render them to the screen. 
-- [ ] Follow the documentation to learn how to fetch a list of "people". However, don't spend _too_ long on this. Here is a link for you to follow if you've looked around the docs for about 15 minutes or so and haven't found where to go - [Secret Link to Awesomeness 🤫](https://swapi.co/documentation#people).
-- [ ] Set the data you fetch to state.
-- [ ] Map over the list and render a component for each character on the page.
-- [ ] You must display at least one element for each star wars character in the data set.
-- [ ] The elements must be styled with either Reactstrap or styled-components - don't rely on browser default styles.
+- [Y] Fetch a list of Star Wars characters from the [Star Wars API (or SWAPI)](https://swapi.co/) and render them to the screen. 
+- Y ] Follow the documentation to learn how to fetch a list of "people". However, don't spend _too_ long on this. Here is a link for you to follow if you've looked around the docs for about 15 minutes or so and haven't found where to go - [Secret Link to Awesomeness 🤫](https://swapi.co/documentation#people).
+- Y ] Set the data you fetch to state.
+- [Y] Map over the list and render a component for each character on the page.
+- [Y] You must display at least one element for each star wars character in the data set.
+- [Y] The elements must be styled with either Reactstrap or styled-components - don't rely on browser default styles.
 
 #### Required best practices:
 
-- [ ] Consistent naming. Examples: variables, functions, Components, and file/folder organization.
-- [ ] Consistent spacing. Examples: line breaks, around arguments and before/after functions.
-- [ ] Consistent quotation usage.
-- [ ] Spell-check.
-- [ ] Schedule time to review, refine and reassess your work.
+- [Y] Consistent naming. Examples: variables, functions, Components, and file/folder organization.
+- [Y] Consistent spacing. Examples: line breaks, around arguments and before/after functions.
+- [Y] Consistent quotation usage.
+- [Y] Spell-check.
+- [Y] Schedule time to review, refine and reassess your work.
 
 
 It is better to submit a challenge that meets [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product) than one that attempts too much and fails.
